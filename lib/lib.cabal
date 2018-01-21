@@ -1,0 +1,33 @@
+-- This file has been generated from package.yaml by hpack version 0.21.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 12cc5096d2001f59b0fe8c2eb6ec3a7483200e774576193b1a47307f6dceb814
+
+name:           lib
+version:        0.0.0
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      Greet
+  other-modules:
+      Paths_lib
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+  default-language: Haskell2010
+
+test-suite test
+  type: exitcode-stdio-1.0
+  main-is: Test.hs
+  other-modules:
+      Paths_lib
+  hs-source-dirs:
+      test
+  build-depends:
+      base
+    , test-util
+  default-language: Haskell2010

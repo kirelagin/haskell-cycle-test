@@ -1,0 +1,14 @@
+name: lib
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+
+tests:
+  test:
+    source-dirs: test
+    main: Test.hs
+    dependencies:
+      - base
+      - test-util

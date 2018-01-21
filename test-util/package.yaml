@@ -1,0 +1,7 @@
+name: test-util
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - lib

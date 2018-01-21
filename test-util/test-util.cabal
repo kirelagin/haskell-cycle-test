@@ -1,0 +1,22 @@
+-- This file has been generated from package.yaml by hpack version 0.21.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a0bc6120a9a5d4ed17ea615dfebb233ada65a5f093af380ffdcae9eb2ed1c3fc
+
+name:           test-util
+version:        0.0.0
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      TestUtil
+  other-modules:
+      Paths_test_util
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , lib
+  default-language: Haskell2010
